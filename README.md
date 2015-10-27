@@ -81,7 +81,6 @@ Adding an avatar_url to a user.
 Next we need to modify our avatar_url method in the ApplicationHelper so that it will use a user’s stored avatar if one is present.
 
 ```
-
 /app/helpers/application_helper.rb
 
 module ApplicationHelper
@@ -95,9 +94,6 @@ module ApplicationHelper
     end
   end
 end
-
-
-```
 
 ```
 
